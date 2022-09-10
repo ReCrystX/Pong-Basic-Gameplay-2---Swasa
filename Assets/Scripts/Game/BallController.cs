@@ -6,6 +6,7 @@ public class BallController : MonoBehaviour
 {
     public Vector2 speed;
     public Vector2 resetPos;
+    public float maxSpeed;
 
     private Rigidbody2D rig;
 

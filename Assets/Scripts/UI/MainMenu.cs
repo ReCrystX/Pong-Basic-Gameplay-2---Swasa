@@ -11,6 +11,6 @@ public class MainMenu : MonoBehaviour
     }
 
     public void GetCredits(){
-        Debug.Log("Created by ReCrystX");
+        SceneManager.LoadScene("Credits");
     }
 }
